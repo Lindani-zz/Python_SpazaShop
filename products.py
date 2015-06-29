@@ -20,7 +20,7 @@ def mostPopularProduct(products):
             my_max_val=amount
             my_max_key=product
             mostPopular = {
-            'product' : my_max_key,
+            'mostPopular' : my_max_key,
             'qty' : my_max_val
             }
     return mostPopular
@@ -33,7 +33,7 @@ def leastPopularProduct(products):
             min_value = amount
             product_name = product
             leastPopular = {
-            'product' : product_name,
+            'leastPopular' : product_name,
             'qty' : min_value
             }
     return leastPopular

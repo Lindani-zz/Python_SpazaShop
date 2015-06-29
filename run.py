@@ -1,9 +1,9 @@
 import products
-from products import groupedProducts
+#from products import groupedProducts
 
-print dir(products)
+#print dir(products)
 
-productMap = groupedProducts()
+productMap = products.groupedProducts()
 
 print products.mostPopularProduct(productMap)
 print products.leastPopularProduct(productMap)
